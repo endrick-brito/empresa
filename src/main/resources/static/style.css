@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 199, 199);
+}
+
+body #container{
+    width: 40vw;
+    border-radius: 20px;
+}
+
+body #container #formulario #content{
+    padding: 50px 20px 50px 20px;
+    width: 50%;
+    background-color: rgb(51, 107, 153);
+    color: white;
+}
+
+body #container #formulario{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+}
+
+body #container #formulario form{
+    background-color: rgb(40, 85, 122);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+    width: 50%;
+    padding: 50px 20px 50px 20px;
+}
